@@ -1,0 +1,105 @@
+1. Compute Engine (Virtual Machines)
+
+Explanation:
+Compute Engine provides scalable, customizable virtual machines (VMs) running in Google Cloud. You can configure CPU, memory, storage, and OS to match your application needs.
+Practical:
+
+Launch a VM instance via Cloud Console or CLI.
+
+Use it to run applications, host websites, or manage backend services.
+
+2. App Engine (Managed App Hosting)
+
+Explanation:
+App Engine is a fully managed platform for building and deploying applications without managing the underlying infrastructure. Supports popular languages like Python, Java, Node.js.
+Practical:
+
+Deploy code using simple commands; scaling and load balancing are automatic.
+
+3. Cloud Functions (Serverless Functions)
+
+Explanation:
+Cloud Functions lets you run event-driven code snippets without managing servers. Functions respond to triggers like HTTP requests, database changes, or messaging events.
+Practical:
+
+Write a function that automatically resizes images when uploaded to Cloud Storage.
+
+4. Cloud Dataflow (Basic Data Pipelines)
+
+Explanation:
+Dataflow is a fully managed service for creating data processing pipelines, useful for ETL tasks and real-time analytics. It uses Apache Beam SDK for pipeline development.
+Practical:
+
+Create a pipeline that reads data from Pub/Sub, transforms it, and writes to BigQuery.
+
+5. Cloud Dataproc (Hadoop and Spark for Basic Data Processing)
+
+Explanation:
+Dataproc offers managed Hadoop and Spark clusters to process large datasets quickly and cost-effectively. It’s ideal for batch processing, data transformations, and machine learning workloads.
+Practical:
+
+Spin up a Spark cluster, run data jobs, then shut it down to save costs.
+
+6. Cloud SQL (Data Storage for Data Analysis)
+
+Explanation:
+Cloud SQL provides fully managed relational databases (MySQL, PostgreSQL, SQL Server). It’s optimized for data storage and analysis with easy maintenance and backups.
+Practical:
+
+Use Cloud SQL as the backend database for your application or BI tools.
+
+7. Cloud IoT Core (Device Management) & Cloud Pub/Sub (Real-time Data Messaging) & Cloud Storage (Data Storage for Sensor Data)
+
+Explanation:
+
+Cloud IoT Core: Securely connects and manages IoT devices.
+
+Cloud Pub/Sub: Messaging service for ingesting and delivering real-time data streams.
+
+Cloud Storage: Scalable object storage ideal for sensor data and backups.
+Practical:
+
+IoT Core registers devices → devices send data to Pub/Sub → messages stored in Cloud Storage.
+
+8. Cloud Console (Web Interface), Cloud Monitoring (Basic Monitoring), Cloud Billing (Cost Management)
+
+Explanation:
+
+Cloud Console: Web-based UI to manage Google Cloud resources.
+
+Cloud Monitoring: Tracks performance and uptime of cloud services.
+
+Cloud Billing: Provides visibility and control over cloud costs and budgets.
+Practical:
+
+Use Cloud Console for resource deployment, Monitoring to set alerts, and Billing to track usage.
+
+9. AI Platform Notebooks (Basic AI Exploration), Vertex AI Workbench (Managed Environment for Data Science Projects), BigQuery ML (Basic Machine Learning within BigQuery), TensorFlow (Open-source ML Library), Cloud TPUs (Accelerated Hardware for TensorFlow), Cloud AI Platform Training (Managed Training for ML Models)
+
+Explanation:
+
+AI Platform Notebooks & Vertex AI Workbench: Managed Jupyter notebooks for data science and ML model development.
+
+BigQuery ML: Enables machine learning model creation directly within BigQuery using SQL syntax.
+
+TensorFlow: Open-source library to build and train ML models.
+
+Cloud TPUs: Specialized hardware to accelerate TensorFlow model training and inference.
+
+AI Platform Training: Managed service for training ML models at scale.
+Practical:
+
+Develop models in notebooks, train with AI Platform, deploy and accelerate using TPUs.
+
+10. Cloud VPN (Secure Connections), Cloud DNS (Managed DNS), Cloud Load Balancing (Distributes Traffic)
+
+Explanation:
+
+Cloud VPN: Creates secure, encrypted connections between on-premises networks and Google Cloud.
+
+Cloud DNS: Scalable and managed DNS service for domain name resolution.
+
+Cloud Load Balancing: Distributes incoming traffic across multiple backend resources to ensure reliability and scalability.
+Practical:
+
+Use VPN to securely connect your infrastructure; DNS for domain management; Load Balancer to improve app availability.
